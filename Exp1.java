@@ -1,0 +1,25 @@
+abstract class Demo
+{
+		abstract void m1();
+		//abstract void m2();
+}
+class sample extends Demo
+{
+		void m1()
+	{
+		System.out.println("This is the Abstraction method1");
+
+		System.out.println("This is the Abstraction method2");
+	}
+}
+class Exp1
+{
+	public static void main(String afs[])
+	{
+		System.out.println("Start");
+
+		sample s1 = new sample();
+		s1.m1();
+		//s2.m2();
+	}
+}
